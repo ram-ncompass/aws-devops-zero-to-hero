@@ -1,6 +1,10 @@
 version: 0.0
 os: linux
 
+files:
+  - source: ./docker-compose.yml
+    destination: ./docker-compose.yml
+
 hooks:
   ApplicationStop:
     - location: scripts-compose/stop_container.sh
