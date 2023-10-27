@@ -6,4 +6,5 @@ pwd
 ls
 cd /home/ubuntu/docker-files
 # Start the containers defined in docker-compose.yml in the background
-sudo docker-compose up -d --build
+sudo docker-compose pull ramkumar58059/simple-python-flask-app:latest
+sudo docker-compose up -d
