@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    image: ramkumar58059/simple-python-flask-app 
+    ports:
+      - "5000:5000"
+    restart: always  # Automatically restart the container if it fails
