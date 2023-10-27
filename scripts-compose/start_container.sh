@@ -6,4 +6,4 @@ pwd
 ls
 cd /home/ubuntu/docker-files
 # Start the containers defined in docker-compose.yml in the background
-sudo docker-compose up -d
+sudo docker-compose up -d --build
