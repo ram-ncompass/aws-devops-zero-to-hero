@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    image: ramkumar58059/simple-python-flask-app 
+    image: ramkumar58059/simple-python-flask-app:latest
     ports:
       - "3000:5000"
     restart: always  # Automatically restart the container if it fails
