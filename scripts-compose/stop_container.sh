@@ -5,5 +5,6 @@ set -e
 # cd /path/on/ec2-instance
 pwd
 ls
+cd /home/ubuntu/docker-files
 # Stop and remove the containers defined in docker-compose.yml
 sudo docker-compose down
